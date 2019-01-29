@@ -21,7 +21,7 @@ package main
 import (
 	"log"
 
-	minio "github.com/minio/minio-go"
+	minio "github.com/StudioSol/minio-go"
 )
 
 func main() {

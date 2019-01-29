@@ -32,8 +32,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio-go/pkg/encrypt"
-	"github.com/minio/minio-go/pkg/policy"
+	"github.com/StudioSol/minio-go/pkg/encrypt"
+	"github.com/StudioSol/minio-go/pkg/policy"
 )
 
 const letterBytes = "abcdefghijklmnopqrstuvwxyz01234569"

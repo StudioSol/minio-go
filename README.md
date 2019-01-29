@@ -1,4 +1,4 @@
-# Minio Go Client SDK for Amazon S3 Compatible Cloud Storage [![Slack](https://slack.minio.io/slack?type=svg)](https://slack.minio.io) [![Sourcegraph](https://sourcegraph.com/github.com/minio/minio-go/-/badge.svg)](https://sourcegraph.com/github.com/minio/minio-go?badge)
+# Minio Go Client SDK for Amazon S3 Compatible Cloud Storage [![Slack](https://slack.minio.io/slack?type=svg)](https://slack.minio.io) [![Sourcegraph](https://sourcegraph.com/github.com/StudioSol/minio-go/-/badge.svg)](https://sourcegraph.com/github.com/StudioSol/minio-go?badge)
 
 The Minio Go Client SDK provides simple APIs to access any Amazon S3 compatible object storage.
 
@@ -20,7 +20,7 @@ This document assumes that you have a working [Go development environment](https
 
 ## Download from Github
 ```sh
-go get -u github.com/minio/minio-go
+go get -u github.com/StudioSol/minio-go
 ```
 
 ## Initialize Minio Client
@@ -38,7 +38,7 @@ Minio client requires the following four parameters specified to connect to an A
 package main
 
 import (
-	"github.com/minio/minio-go"
+	"github.com/StudioSol/minio-go"
 	"log"
 )
 
@@ -67,7 +67,7 @@ We will use the Minio server running at [https://play.minio.io:9000](https://pla
 package main
 
 import (
-	"github.com/minio/minio-go"
+	"github.com/StudioSol/minio-go"
 	"log"
 )
 
@@ -190,51 +190,51 @@ The full API Reference is available here.
 
 #### Full Examples : Bucket Operations
 
-* [makebucket.go](https://github.com/minio/minio-go/blob/master/examples/s3/makebucket.go)
-* [listbuckets.go](https://github.com/minio/minio-go/blob/master/examples/s3/listbuckets.go)
-* [bucketexists.go](https://github.com/minio/minio-go/blob/master/examples/s3/bucketexists.go)
-* [removebucket.go](https://github.com/minio/minio-go/blob/master/examples/s3/removebucket.go)
-* [listobjects.go](https://github.com/minio/minio-go/blob/master/examples/s3/listobjects.go)
-* [listobjectsV2.go](https://github.com/minio/minio-go/blob/master/examples/s3/listobjectsV2.go)
-* [listincompleteuploads.go](https://github.com/minio/minio-go/blob/master/examples/s3/listincompleteuploads.go)
+* [makebucket.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/makebucket.go)
+* [listbuckets.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/listbuckets.go)
+* [bucketexists.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/bucketexists.go)
+* [removebucket.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/removebucket.go)
+* [listobjects.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/listobjects.go)
+* [listobjectsV2.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/listobjectsV2.go)
+* [listincompleteuploads.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/listincompleteuploads.go)
 
 #### Full Examples : Bucket policy Operations
 
-* [setbucketpolicy.go](https://github.com/minio/minio-go/blob/master/examples/s3/setbucketpolicy.go)
-* [getbucketpolicy.go](https://github.com/minio/minio-go/blob/master/examples/s3/getbucketpolicy.go)
-* [listbucketpolicies.go](https://github.com/minio/minio-go/blob/master/examples/s3/listbucketpolicies.go)
+* [setbucketpolicy.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/setbucketpolicy.go)
+* [getbucketpolicy.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/getbucketpolicy.go)
+* [listbucketpolicies.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/listbucketpolicies.go)
  
 #### Full Examples : Bucket notification Operations
 
-* [setbucketnotification.go](https://github.com/minio/minio-go/blob/master/examples/s3/setbucketnotification.go)
-* [getbucketnotification.go](https://github.com/minio/minio-go/blob/master/examples/s3/getbucketnotification.go)
-* [removeallbucketnotification.go](https://github.com/minio/minio-go/blob/master/examples/s3/removeallbucketnotification.go)
-* [listenbucketnotification.go](https://github.com/minio/minio-go/blob/master/examples/minio/listenbucketnotification.go) (Minio Extension)
+* [setbucketnotification.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/setbucketnotification.go)
+* [getbucketnotification.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/getbucketnotification.go)
+* [removeallbucketnotification.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/removeallbucketnotification.go)
+* [listenbucketnotification.go](https://github.com/StudioSol/minio-go/blob/master/examples/minio/listenbucketnotification.go) (Minio Extension)
 
 #### Full Examples : File Object Operations
 
-* [fputobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/fputobject.go)
-* [fgetobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/fgetobject.go)
+* [fputobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/fputobject.go)
+* [fgetobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/fgetobject.go)
 
 #### Full Examples : Object Operations
 
-* [putobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/putobject.go)
-* [getobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/getobject.go)
-* [statobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/statobject.go)
-* [copyobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/copyobject.go)
-* [removeobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/removeobject.go)
-* [removeincompleteupload.go](https://github.com/minio/minio-go/blob/master/examples/s3/removeincompleteupload.go)
-* [removeobjects.go](https://github.com/minio/minio-go/blob/master/examples/s3/removeobjects.go)
+* [putobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/putobject.go)
+* [getobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/getobject.go)
+* [statobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/statobject.go)
+* [copyobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/copyobject.go)
+* [removeobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/removeobject.go)
+* [removeincompleteupload.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/removeincompleteupload.go)
+* [removeobjects.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/removeobjects.go)
 
 #### Full Examples : Encrypted Object Operations
 
-* [put-encrypted-object.go](https://github.com/minio/minio-go/blob/master/examples/s3/put-encrypted-object.go)
-* [get-encrypted-object.go](https://github.com/minio/minio-go/blob/master/examples/s3/get-encrypted-object.go)
+* [put-encrypted-object.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/put-encrypted-object.go)
+* [get-encrypted-object.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/get-encrypted-object.go)
 
 #### Full Examples : Presigned Operations
-* [presignedgetobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/presignedgetobject.go)
-* [presignedputobject.go](https://github.com/minio/minio-go/blob/master/examples/s3/presignedputobject.go)
-* [presignedpostpolicy.go](https://github.com/minio/minio-go/blob/master/examples/s3/presignedpostpolicy.go)
+* [presignedgetobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/presignedgetobject.go)
+* [presignedputobject.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/presignedputobject.go)
+* [presignedpostpolicy.go](https://github.com/StudioSol/minio-go/blob/master/examples/s3/presignedpostpolicy.go)
 
 ## Explore Further
 * [Complete Documentation](https://docs.minio.io)
@@ -243,7 +243,7 @@ The full API Reference is available here.
 
 ## Contribute
 
-[Contributors Guide](https://github.com/minio/minio-go/blob/master/CONTRIBUTING.md)
+[Contributors Guide](https://github.com/StudioSol/minio-go/blob/master/CONTRIBUTING.md)
 
 [![Build Status](https://travis-ci.org/minio/minio-go.svg)](https://travis-ci.org/minio/minio-go)
 [![Build status](https://ci.appveyor.com/api/projects/status/1d05e6nvxcelmrak?svg=true)](https://ci.appveyor.com/project/harshavardhana/minio-go)

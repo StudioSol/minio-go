@@ -21,7 +21,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/minio/minio-go"
+	"github.com/StudioSol/minio-go"
 )
 
 func main() {

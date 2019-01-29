@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio-go/pkg/credentials"
-	"github.com/minio/minio-go/pkg/policy"
+	"github.com/StudioSol/minio-go/pkg/credentials"
+	"github.com/StudioSol/minio-go/pkg/policy"
 )
 
 type customReader struct{}

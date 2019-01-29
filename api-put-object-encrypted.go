@@ -19,7 +19,7 @@ package minio
 import (
 	"io"
 
-	"github.com/minio/minio-go/pkg/encrypt"
+	"github.com/StudioSol/minio-go/pkg/encrypt"
 )
 
 // PutEncryptedObject - Encrypt and store object.

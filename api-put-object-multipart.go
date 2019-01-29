@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/StudioSol/minio-go/pkg/s3utils"
 )
 
 func (c Client) putObjectMultipart(bucketName, objectName string, reader io.Reader, size int64,

@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio-go/pkg/policy"
+	"github.com/StudioSol/minio-go/pkg/policy"
 )
 
 // Tests bucket re-create errors.

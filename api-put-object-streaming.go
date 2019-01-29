@@ -23,7 +23,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/StudioSol/minio-go/pkg/s3utils"
 )
 
 // PutObjectStreaming using AWS streaming signature V4

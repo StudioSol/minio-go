@@ -10,7 +10,7 @@ package main
 import (
     "fmt"
 
-    "github.com/minio/minio-go"
+    "github.com/StudioSol/minio-go"
 )
 
 func main() {
@@ -34,7 +34,7 @@ package main
 import (
     "fmt"
 
-    "github.com/minio/minio-go"
+    "github.com/StudioSol/minio-go"
 )
 
 func main() {
@@ -1140,7 +1140,7 @@ fmt.Printf("%s\n", url)
 
 Set access permissions on bucket or an object prefix.
 
-Importing `github.com/minio/minio-go/pkg/policy` package is needed.
+Importing `github.com/StudioSol/minio-go/pkg/policy` package is needed.
 
 __Parameters__
 
@@ -1180,7 +1180,7 @@ if err != nil {
 
 Get access permissions on a bucket or a prefix.
 
-Importing `github.com/minio/minio-go/pkg/policy` package is needed.
+Importing `github.com/StudioSol/minio-go/pkg/policy` package is needed.
 
 __Parameters__
 

@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/StudioSol/minio-go/pkg/s3utils"
 )
 
 // FGetObject - download contents of an object to a local file.

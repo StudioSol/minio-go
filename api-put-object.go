@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/minio/minio-go/pkg/credentials"
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/StudioSol/minio-go/pkg/credentials"
+	"github.com/StudioSol/minio-go/pkg/s3utils"
 )
 
 // toInt - converts go value to its integer representation based

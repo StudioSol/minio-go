@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/minio/minio-go/pkg/policy"
-	"github.com/minio/minio-go/pkg/s3utils"
+	"github.com/StudioSol/minio-go/pkg/policy"
+	"github.com/StudioSol/minio-go/pkg/s3utils"
 )
 
 /// Bucket operations

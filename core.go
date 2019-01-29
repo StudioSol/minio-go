@@ -19,7 +19,7 @@ package minio
 import (
 	"io"
 
-	"github.com/minio/minio-go/pkg/policy"
+	"github.com/StudioSol/minio-go/pkg/policy"
 )
 
 // Core - Inherits Client and adds new methods to expose the low level S3 APIs.
